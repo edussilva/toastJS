@@ -14,7 +14,7 @@ Simple toast style with JQuery
 ```
 #### JS
 ```html
-<script type="text/javascript" src="{{ MEDIA_URL }}js/toastjs/js/toastjs.js" charset="utf-8"></script>
+<script type="text/javascript" src="toastjs/js/toastjs.js" charset="utf-8"></script>
 ```
 ##### Documentation
 
