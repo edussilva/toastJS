@@ -23,7 +23,7 @@ toast warning:
 $(document).ready(function(){
     toast("Warning Message");  // or toast("Warning", false);
 });
-``
+```
 
 toast success:
 ```javascript
