@@ -23,4 +23,11 @@ toast warning:
 $(document).ready(function(){
     toast("Warning Message");  // or toast("Warning", false);
 });
+``
+
+toast success:
+```javascript
+$(document).ready(function(){
+    toast("Success Message", true);
+});
 ```
