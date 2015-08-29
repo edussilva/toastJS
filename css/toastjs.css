@@ -1,0 +1,35 @@
+.toast_warning{  
+  height: 60px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #333;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #ea000a url(../images/warning.png) no-repeat 12px center;
+  opacity: 0.9;
+  padding: 0 20px 0 40px;
+}
+
+.toast_success{  
+  height: 60px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #333;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #00a54f url(../images/success.png) no-repeat 12px center;
+  opacity: 0.9;
+  padding: 0 20px 0 40px;
+}
