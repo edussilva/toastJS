@@ -1,5 +1,5 @@
 # toastJS
-Simple toast style with JQuery v. 0.1
+Simple toast style with jQuery v. 1.0
 
 
 ## Install
@@ -10,26 +10,26 @@ Simple toast style with JQuery v. 0.1
 
 #### CSS
 ```html
-<link rel="stylesheet" type="text/css" href="toastjs/css/toastjs.css" />
+<link rel="stylesheet" type="text/css" href="src/css/toastjs.css" />
 ```
 #### JS
 ```html
-<script type="text/javascript" src="toastjs/js/toastjs.js" charset="utf-8"></script>
+<script src="src/js/toastjs.js"></script>
 ```
 
 
 ##### Documentation
 
-toast warning:
+Types:
 ```javascript
-$(document).ready(function(){
-    toast("Warning Message");  // or toast("Warning", false);
-});
-```
+$(function(){
+	// toast("Message", "toast type", seconds)
 
-toast success:
-```javascript
-$(document).ready(function(){
-    toast("Success Message", true);
+	// Do not run code at the same time
+	toast("Test message", "debug", 4);
+	toast("Test message", "info", 2);
+	toast("Test message", "success", 5);
+	toast("Test message", "warning", 1);
+	toast("Test message", "error", 3);
 });
 ```

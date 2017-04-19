@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ToastJS</title>
+	<link rel="stylesheet" type="text/css" href="../src/css/toastjs.css" />
+	
+</head>
+<body>
+	<div class="main">
+		<h1>ToastJS</h1>
+		<h2>Examples</h2>
+		<ul>
+			<li><a href="" class="toast" data-type="debug">Debug</a></li>
+			<li><a href="" class="toast" data-type="info">Info</a></li>
+			<li><a href="" class="toast" data-type="success">Success</a></li>
+			<li><a href="" class="toast" data-type="warning">Warning</a></li>
+			<li><a href="" class="toast" data-type="error">Error</a></li>
+		</ul>	
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="../src/js/toastjs.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.toast').on('click', function(e){
+				e.preventDefault();
+				var type = $(this).data('type');
+				var msg = "Toast " + type + " message!"
+
+				toast(msg, type, 4);
+			});
+
+			// toast("Test message", "debug", 4);
+			// toast("Test message", "info", 2);
+			// toast("Test message", "success", 5);
+			// toast("Test message", "warning", 1);
+			// toast("Test message", "error", 3);
+		});
+	</script>
+</body>
+</html>
