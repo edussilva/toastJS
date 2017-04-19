@@ -23,13 +23,13 @@ Simple toast style with jQuery v. 1.0
 Types:
 ```javascript
 $(function(){
-	// toast("Message", "toast type", seconds)
+  // toast("Message", "toast type", seconds)
 
-	// Do not run code at the same time
-	toast("Test message", "debug", 4);
-	toast("Test message", "info", 2);
-	toast("Test message", "success", 5);
-	toast("Test message", "warning", 1);
-	toast("Test message", "error", 3);
+  // Do not run code at the same time
+  toast("Test message", "debug", 4);
+  toast("Test message", "info", 2);
+  toast("Test message", "success", 5);
+  toast("Test message", "warning", 1);
+  toast("Test message", "error", 3);
 });
 ```
