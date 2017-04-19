@@ -4,7 +4,7 @@ Simple toast style with jQuery v. 1.0
 
 ## Install
 
-####Requirements
+#### Requirements
 * jquery
 
 
